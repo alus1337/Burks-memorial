@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vw 3vw;
+  border-bottom: 0.3vw solid lightgrey;
+  height: 10vh;
+}
+
+.nav_social {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.nav_social a {
+  display: block;
+  width: 6vh;
+  height: 6vh;
+}
+
+.nav_social a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav_social input {
+  width: 9.5vw;
+}
+
+.nav_name {
+  display: inline-block;
+}
+
+.nav_name h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
